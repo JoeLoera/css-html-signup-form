@@ -23,3 +23,30 @@ body {
   padding: 40px;
   box-shadow: rgb(0, 0, 0, 0.05) 0 6px 24px 0, rgb(0, 0, 0, 0.08) 0 0 0 1px;
 }
+
+.auth-modal form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-modal input {
+  padding: 8px;
+  margin: 8px;
+  font-size: 17px;
+}
+
+.auth-modal .form-button {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 12px 30px;
+  border-radius: 30px;
+  margin: 6px;
+  border: rgb(255, 255, 255) solid 2px;
+  background: linear-gradient(45deg, rgb(185, 48, 254), rgb(255, 64, 153));
+}
+
+.auth-modal .form-button:hover {
+  color: rgb(48, 48, 48);
+  border: rgb(48, 48, 48) solid 2px;
+}
